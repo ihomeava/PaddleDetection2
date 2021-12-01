@@ -100,7 +100,7 @@ class VOCDataSet(DetDataset):
         else:
             cname2cid = pascalvoc_label()
 
-        with open(anno_path, 'r') as fr:
+        with open(anno_path, 'r', encoding='utf-8') as fr:
             while True:
                 line = fr.readline()
                 if not line:

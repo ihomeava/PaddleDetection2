@@ -83,3 +83,4 @@ ppdet/version.py
 # NPU meta folder
 kernel_meta/
 datasets
+src/cython-bbox/
